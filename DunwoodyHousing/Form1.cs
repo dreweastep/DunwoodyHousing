@@ -253,5 +253,22 @@ namespace DunwoodyHousing
             comboBox1.SelectedIndex = -1;
             comboBox2.SelectedIndex = -1;
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            foreach (var resident in residentList)
+            {
+                if (resident.IDNumber == textBox8.Text)
+                {
+                    label19.Hide();
+                    break;
+                }
+
+                else
+                {
+                    label19.Show();
+                }
+            }
+        }
     }
 }

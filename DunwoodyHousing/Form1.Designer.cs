@@ -69,6 +69,11 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.LogIn.SuspendLayout();
             this.Home.SuspendLayout();
@@ -263,6 +268,11 @@
             // 
             this.ResidentSearch.BackColor = System.Drawing.Color.Maroon;
             this.ResidentSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ResidentSearch.Controls.Add(this.label19);
+            this.ResidentSearch.Controls.Add(this.button10);
+            this.ResidentSearch.Controls.Add(this.textBox8);
+            this.ResidentSearch.Controls.Add(this.label18);
+            this.ResidentSearch.Controls.Add(this.label17);
             this.ResidentSearch.Controls.Add(this.button8);
             this.ResidentSearch.Controls.Add(this.button5);
             this.ResidentSearch.Location = new System.Drawing.Point(4, 25);
@@ -554,6 +564,59 @@
             this.label16.Text = "Please fill all forms.";
             this.label16.Visible = false;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.LightGray;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(49, 3);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(235, 36);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "Resident Search";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.DimGray;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(8, 76);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(116, 25);
+            this.label18.TabIndex = 8;
+            this.label18.Text = "ID Number: ";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(147, 74);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(207, 27);
+            this.textBox8.TabIndex = 10;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(392, 73);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(129, 32);
+            this.button10.TabIndex = 11;
+            this.button10.Text = "Search";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Maroon;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(3, 108);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(501, 25);
+            this.label19.TabIndex = 12;
+            this.label19.Text = "That ID Number does not match any residents on record.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -570,6 +633,7 @@
             this.Home.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResidentSearch.ResumeLayout(false);
+            this.ResidentSearch.PerformLayout();
             this.NewResident.ResumeLayout(false);
             this.NewResident.PerformLayout();
             this.ResumeLayout(false);
@@ -618,6 +682,11 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label19;
     }
 }
 
