@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DunwoodyHousing
 {
+    [Serializable]
     class StudentAthlete : Resident
     {
         public StudentAthlete(string id, string fName, string lName,

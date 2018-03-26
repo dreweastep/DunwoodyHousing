@@ -27,14 +27,21 @@ namespace DunwoodyHousing
             inFile.Close();
         }
 
+        private void WriteOut()
+        {
+            FileStream outFile = new FileStream(FILENAME, FileMode.Open, FileAccess.Write);
+            binaryFormatter.Serialize(outFile, residentList);
+
+            outFile.Close();
+        }
+
         public Form1()
         {
-            //ReadIn();
+            ReadIn();
             InitializeComponent();
             tabControl1.TabPages.Remove(Home);
             tabControl1.TabPages.Remove(ResidentSearch);
             tabControl1.TabPages.Remove(NewResident);
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -89,12 +96,16 @@ namespace DunwoodyHousing
         {
             tabControl1.TabPages.Add(LogIn);
             tabControl1.TabPages.Remove(Home);
+
+            WriteOut();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             tabControl1.TabPages.Add(LogIn);
             tabControl1.TabPages.Remove(ResidentSearch);
+
+            WriteOut();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -102,6 +113,7 @@ namespace DunwoodyHousing
             tabControl1.TabPages.Add(LogIn);
             tabControl1.TabPages.Remove(NewResident);
 
+            WriteOut();
             ClearNewResident();
         }
 
@@ -199,7 +211,7 @@ namespace DunwoodyHousing
                         break;
                     }
                 }
-                
+
                 if (comboBox1.Text == "Student Worker")
                 {
                     var myResident = new StudentWorker(IDNumber, firstName, lastName, roomNumber, floorNumber, monthlyHours);
@@ -223,6 +235,8 @@ namespace DunwoodyHousing
 
                     ClearNewResident();
                 }
+
+                label30.Show();
             }
         }
 
@@ -235,7 +249,7 @@ namespace DunwoodyHousing
         {
             label14.Hide();
         }
-        
+
         private void ClearNewResident()
         {
             label13.Hide();
@@ -256,10 +270,38 @@ namespace DunwoodyHousing
 
         private void button10_Click(object sender, EventArgs e)
         {
+            label20.Hide();
+            label21.Hide();
+            label22.Hide();
+            label23.Hide();
+            label24.Hide();
+            label25.Hide();
+            label26.Hide();
+            label27.Hide();
+            label28.Hide();
+            label29.Hide();
+
             foreach (var resident in residentList)
             {
                 if (resident.IDNumber == textBox8.Text)
                 {
+                    label20.Show();
+                    label21.Show();
+                    label22.Show();
+                    label23.Show();
+                    label24.Show();
+                    label25.Show();
+                    label26.Show();
+                    label27.Show();
+                    label28.Show();
+                    label29.Show();
+
+                    label25.Text = resident.firstName;
+                    label26.Text = resident.lastName;
+                    label27.Text = resident.monthlyRent.ToString();
+                    label28.Text = resident.floorNumber;
+                    label29.Text = resident.roomNumber;
+
                     label19.Hide();
                     break;
                 }
@@ -268,6 +310,15 @@ namespace DunwoodyHousing
                 {
                     label19.Show();
                 }
+            }
+        }
+
+        private void textBox8_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                button10.PerformClick();
             }
         }
     }

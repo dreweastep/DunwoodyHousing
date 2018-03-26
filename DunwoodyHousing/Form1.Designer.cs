@@ -45,9 +45,26 @@
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ResidentSearch = new System.Windows.Forms.TabPage();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.NewResident = new System.Windows.Forms.TabPage();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -68,12 +85,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label19 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.LogIn.SuspendLayout();
             this.Home.SuspendLayout();
@@ -268,6 +279,16 @@
             // 
             this.ResidentSearch.BackColor = System.Drawing.Color.Maroon;
             this.ResidentSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ResidentSearch.Controls.Add(this.label29);
+            this.ResidentSearch.Controls.Add(this.label28);
+            this.ResidentSearch.Controls.Add(this.label27);
+            this.ResidentSearch.Controls.Add(this.label26);
+            this.ResidentSearch.Controls.Add(this.label25);
+            this.ResidentSearch.Controls.Add(this.label24);
+            this.ResidentSearch.Controls.Add(this.label23);
+            this.ResidentSearch.Controls.Add(this.label22);
+            this.ResidentSearch.Controls.Add(this.label21);
+            this.ResidentSearch.Controls.Add(this.label20);
             this.ResidentSearch.Controls.Add(this.label19);
             this.ResidentSearch.Controls.Add(this.button10);
             this.ResidentSearch.Controls.Add(this.textBox8);
@@ -281,6 +302,186 @@
             this.ResidentSearch.Size = new System.Drawing.Size(545, 449);
             this.ResidentSearch.TabIndex = 2;
             this.ResidentSearch.Text = "Resident Search";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Maroon;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Black;
+            this.label29.Location = new System.Drawing.Point(197, 315);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(67, 25);
+            this.label29.TabIndex = 22;
+            this.label29.Text = "Empty";
+            this.label29.Visible = false;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Maroon;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.Black;
+            this.label28.Location = new System.Drawing.Point(197, 277);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(67, 25);
+            this.label28.TabIndex = 21;
+            this.label28.Text = "Empty";
+            this.label28.Visible = false;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Maroon;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.Black;
+            this.label27.Location = new System.Drawing.Point(197, 237);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(67, 25);
+            this.label27.TabIndex = 20;
+            this.label27.Text = "Empty";
+            this.label27.Visible = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.Maroon;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.Black;
+            this.label26.Location = new System.Drawing.Point(197, 197);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(67, 25);
+            this.label26.TabIndex = 19;
+            this.label26.Text = "Empty";
+            this.label26.Visible = false;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Maroon;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.Location = new System.Drawing.Point(197, 157);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(67, 25);
+            this.label25.TabIndex = 18;
+            this.label25.Text = "Empty";
+            this.label25.Visible = false;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.White;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(7, 315);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(153, 25);
+            this.label24.TabIndex = 17;
+            this.label24.Text = "Room Number:  ";
+            this.label24.Visible = false;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.White;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(8, 238);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(156, 25);
+            this.label23.TabIndex = 16;
+            this.label23.Text = "Monthly Tuition: ";
+            this.label23.Visible = false;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.White;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(7, 277);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(141, 25);
+            this.label22.TabIndex = 15;
+            this.label22.Text = "Floor Number: ";
+            this.label22.Visible = false;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.White;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(8, 197);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(117, 25);
+            this.label21.TabIndex = 14;
+            this.label21.Text = "Last Name: ";
+            this.label21.Visible = false;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.White;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(8, 157);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(117, 25);
+            this.label20.TabIndex = 13;
+            this.label20.Text = "First Name: ";
+            this.label20.Visible = false;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Maroon;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(3, 108);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(501, 25);
+            this.label19.TabIndex = 12;
+            this.label19.Text = "That ID Number does not match any residents on record.";
+            this.label19.Visible = false;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(392, 73);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(129, 32);
+            this.button10.TabIndex = 11;
+            this.button10.Text = "Search";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(147, 74);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(207, 27);
+            this.textBox8.TabIndex = 10;
+            this.textBox8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox8_KeyDown);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.DimGray;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(8, 76);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(116, 25);
+            this.label18.TabIndex = 8;
+            this.label18.Text = "ID Number: ";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.LightGray;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(49, 3);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(235, 36);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "Resident Search";
             // 
             // button8
             // 
@@ -308,6 +509,7 @@
             // 
             this.NewResident.BackColor = System.Drawing.Color.Maroon;
             this.NewResident.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.NewResident.Controls.Add(this.label30);
             this.NewResident.Controls.Add(this.label16);
             this.NewResident.Controls.Add(this.label15);
             this.NewResident.Controls.Add(this.label14);
@@ -336,11 +538,35 @@
             this.NewResident.TabIndex = 3;
             this.NewResident.Text = "New Resident";
             // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(10, 424);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(450, 25);
+            this.label30.TabIndex = 25;
+            this.label30.Text = "Resident creation successful. Log out to save data.";
+            this.label30.Visible = false;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(312, 351);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(176, 25);
+            this.label16.TabIndex = 24;
+            this.label16.Text = "Please fill all forms.";
+            this.label16.Visible = false;
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(11, 419);
+            this.label15.Location = new System.Drawing.Point(11, 410);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(293, 25);
             this.label15.TabIndex = 23;
@@ -350,8 +576,9 @@
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(11, 396);
+            this.label14.Location = new System.Drawing.Point(10, 385);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(323, 25);
             this.label14.TabIndex = 22;
@@ -383,7 +610,7 @@
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(8, 357);
+            this.button9.Location = new System.Drawing.Point(8, 344);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(273, 38);
             this.button9.TabIndex = 19;
@@ -418,6 +645,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
@@ -519,6 +747,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
@@ -552,70 +781,6 @@
             this.button6.Text = "Log Out";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(312, 364);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(176, 25);
-            this.label16.TabIndex = 24;
-            this.label16.Text = "Please fill all forms.";
-            this.label16.Visible = false;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.LightGray;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(49, 3);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(235, 36);
-            this.label17.TabIndex = 7;
-            this.label17.Text = "Resident Search";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.DimGray;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(8, 76);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(116, 25);
-            this.label18.TabIndex = 8;
-            this.label18.Text = "ID Number: ";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(147, 74);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(207, 27);
-            this.textBox8.TabIndex = 10;
-            // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(392, 73);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(129, 32);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Search";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Maroon;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Black;
-            this.label19.Location = new System.Drawing.Point(3, 108);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(501, 25);
-            this.label19.TabIndex = 12;
-            this.label19.Text = "That ID Number does not match any residents on record.";
             // 
             // Form1
             // 
@@ -687,6 +852,17 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label30;
     }
 }
 
