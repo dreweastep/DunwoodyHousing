@@ -543,7 +543,7 @@
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(10, 424);
+            this.label30.Location = new System.Drawing.Point(11, 398);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(450, 25);
             this.label30.TabIndex = 25;

@@ -105,6 +105,7 @@ namespace DunwoodyHousing
             tabControl1.TabPages.Add(LogIn);
             tabControl1.TabPages.Remove(ResidentSearch);
 
+            ClearResidentSearch();
             WriteOut();
         }
 
@@ -121,6 +122,8 @@ namespace DunwoodyHousing
         {
             tabControl1.TabPages.Add(Home);
             tabControl1.TabPages.Remove(ResidentSearch);
+
+            ClearResidentSearch();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -298,7 +301,7 @@ namespace DunwoodyHousing
 
                     label25.Text = resident.firstName;
                     label26.Text = resident.lastName;
-                    label27.Text = resident.monthlyRent.ToString();
+                    label27.Text = resident.monthlyRent.ToString("C");
                     label28.Text = resident.floorNumber;
                     label29.Text = resident.roomNumber;
 
@@ -320,6 +323,20 @@ namespace DunwoodyHousing
             {
                 button10.PerformClick();
             }
+        }
+
+        private void ClearResidentSearch()
+        {
+            label20.Hide();
+            label21.Hide();
+            label22.Hide();
+            label23.Hide();
+            label24.Hide();
+            label25.Hide();
+            label26.Hide();
+            label27.Hide();
+            label28.Hide();
+            label29.Hide();
         }
     }
 }
